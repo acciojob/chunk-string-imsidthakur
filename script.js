@@ -1,10 +1,9 @@
 function stringChop(str, size) {
-   let arr = [];
-
-  for(let i = 0;i<str.length;i=i+size)
-  {
-    arr.push(str.slice(i,size+i));
-  }
+    
+    const result = [];
+    for (let i = 0; i < input.length; i += chunkLength) {
+    result.push(input.slice(i, i + chunkLength));
+    }
 
 	return arr;
 }
